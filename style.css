@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #ab2e81;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#summary {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#transaction-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#transaction-form label,
+#transaction-form input,
+#transaction-form select,
+#transaction-form button {
+    margin-bottom: 10px;
+}
+
+#transaction-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 600px) {
+    #summary {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+      
